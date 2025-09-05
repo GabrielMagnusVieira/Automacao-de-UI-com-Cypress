@@ -1,0 +1,18 @@
+{
+  "name": "page objects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "gabriel magnus",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.0.0",
+    "cypress": "^15.0.0"
+  },
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^7.0.1"
+  }
+}
