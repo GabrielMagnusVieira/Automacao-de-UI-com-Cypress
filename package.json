@@ -13,6 +13,8 @@
     "cypress": "^15.0.0"
   },
   "devDependencies": {
-    "@cypress/webpack-preprocessor": "^7.0.1"
+    "@cypress/webpack-preprocessor": "^7.0.1",
+    "@faker-js/faker": "^10.0.0",
+    "cypress-mochawesome-reporter": "^4.0.2"
   }
 }

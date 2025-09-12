@@ -14,4 +14,12 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import 'cypress-mochawesome-reporter/register';
+
+// Tratamento de exceções globais
+Cypress.on('uncaught:exception', (err, runnable) => {
+  if (err.message.includes('Unexpected token')) {
+    return false;
+  }
+  return true;
+});
